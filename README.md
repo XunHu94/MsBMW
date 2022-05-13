@@ -12,8 +12,7 @@ We need to prepare 8 files as input data, including trining image file "TI", 4 c
 ### (1) Make trining image file "TI"
 The training image is generated in Petrel software, and export them into one file as model properties with "Gslib" format. An Gslib format example of the exported file is "TI".
 
-First lines of the exported file are like:
-
+First lines of the exported file are like:  
 `PETREL: Properties
 1
 Facies
