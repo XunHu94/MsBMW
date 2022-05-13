@@ -13,7 +13,7 @@ We need to prepare 8 files as input data, including trining image file "TI", 4 c
 The training image is generated in Petrel software, and export them into one file as model properties with "Gslib" format. An Gslib format example of the exported file is "TI".
 
 First lines of the exported file are like:
-'PETREL: Properties
+'<PETREL: Properties
 1
 Facies
 0.000000 
@@ -23,7 +23,7 @@ Facies
 ...
 1.000000 
 1.000000 
-0.000000'
+0.000000>'
 
 ### (2) Make seismic date file "SeismicData"
 At first, we import the seismic data in "SEG" or "SEGY" format into the Petrel software. Then, we resampling seismic data into the model. Finally, we export them into one file as model properties with "Gslib" format as well as training image file "TI". An Gslib format example of the exported file is "SeismicData".
