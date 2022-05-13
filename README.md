@@ -1,6 +1,8 @@
 # MsBMW
 A geostatistical seismic inversion technique based on the multi-scale blocking moving window (MsBMW) algorithm. 
 
+![The generated models at different scales using the MsBMW, including lithofacies, \rho, V_P, and synthetic seismic.](https://github.com/XunHu94/MsBMW/Generated_models.jpg)
+
 ## Licenses
 All material is made available under MIT license. You can use, redistribute, and adapt the material for non-commercial purposes, as long as you give appropriate credit by citing our paper and indicating any changes that you've made.
 
