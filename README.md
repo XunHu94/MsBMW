@@ -4,7 +4,7 @@ A geostatistical seismic inversion technique based on the multi-scale blocking m
 ![Generated_models](https://github.com/XunHu94/MsBMW/blob/main/Generated_models.png)  
 **Picture:** The generated models at different scales using the MsBMW, including lithofacies, density, velocity, and synthetic seismic.
 
-![Results_of_different_AR_values](https://github.com/XunHu94/MsBMW/blob/main/Results_of_different_AR_values.png)
+![Results_of_different_AR_values](https://github.com/XunHu94/MsBMW/blob/main/Results_of_different_AR_values.png)  
 **Picture:** Comparison of inversion results of different range of the ({AR}_G, {AR}_T) in MsBMW. (a) RMSE. (b) AR. (c) Temperature. (d) Time.
 
 ## Licenses
