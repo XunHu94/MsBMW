@@ -2,13 +2,13 @@
 A geostatistical seismic inversion technique based on the multi-scale blocking moving window (MsBMW) algorithm. 
 
 ![Key_parameters](https://github.com/XunHu94/MsBMW/blob/main/Key_parameters.png)  
-**Picture:** Key parameters in inversion.
+**Picture:** The changes of key parameters in the iterative process using MsBMW. (a) RMSE, (b) AR. (c) Temperature, (d) Grid level, and (e) normalization of the above 4 key parameters.
 
 ![Generated_models](https://github.com/XunHu94/MsBMW/blob/main/Generated_models.png)  
 **Picture:** The generated models at different scales using the MsBMW, including lithofacies, density, velocity, and synthetic seismic.
 
 ![Results_of_different_AR_values](https://github.com/XunHu94/MsBMW/blob/main/Results_of_different_AR_values.png)  
-**Picture:** Comparison of inversion results of different range of the ({AR}_G, {AR}_T) in MsBMW. (a) RMSE. (b) AR. (c) Temperature. (d) Time.
+**Picture:** Comparison of inversion results of different range of the (AR_G, AR_T) in MsBMW. (a) RMSE. (b) AR. (c) Temperature. (d) Time.
 
 ## Licenses
 All material is made available under MIT license. You can use, redistribute, and adapt the material for non-commercial purposes, as long as you give appropriate credit by citing our paper and indicating any changes that you've made.
