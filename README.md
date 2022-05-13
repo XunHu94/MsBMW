@@ -39,7 +39,6 @@ Seismic_SNY_1
  -3.6438044E-02  
  -4.7419112E-02  
   ...  
-  -1.4060507E-02  
   4.6712905E-04  
  -2.1066867E-02  
  
@@ -70,7 +69,6 @@ The file is formed by the values of the wavelet sampling point sequence. Note th
 -0.00505651  
 -0.00794273  
 ...  
--0.01222101  
 -0.01841405  
 -0.02716234  
 
@@ -87,7 +85,6 @@ z-relative coordinate
 -2	0	-1  
 -2	0	0  
 ...  
-2	0	1  
 2	0	2  
 2	0	3  
 
@@ -97,12 +94,12 @@ We can set several key parameters in "MsBMW.par". Such as the upper bound of ave
 > 			Parameters for MsBMcMCI																	
 > 			      ********************																			
 > START OF PARAMETERS:
-Cond_Facies                                             -Lithofacies conditional data
-Cond_Den                                                -Density conditional data
-Cond_Vp                                                  -Vp conditional data
-SeismicWavelet                                                       -Seismic wave
-SeismicData                                                      -Actual  seismic data
-2                                                              -"assignway"：1--single grid，2--patch
+> Cond_Facies                                             -Lithofacies conditional data
+> Cond_Den                                                -Density conditional data
+> Cond_Vp                                                  -Vp conditional data
+> SeismicWavelet                                                       -Seismic wave
+> SeismicData                                                      -Actual  seismic data
+> 2                                                              -"assignway"：1--single grid，2--patch
 1       2       3        4                                   -columns for "x," "y," "z," variable
 2                                                               -number of categories
 0 1                                                            -category codes
