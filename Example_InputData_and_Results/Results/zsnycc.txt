@@ -1,0 +1,11 @@
+ MP ite.    RMSE    BMcMC ite.    suggested models in a mp ite.    
+ the number of the acceptance of suggested models in a mp ite.    
+  Beta parameter   run time    temperature    
+           1   1458.695       100.0000       50.00000       50.00000    
+   1.000000       11.12500       1.000000    
+           2   1012.213       150.0000       50.00000       42.00000    
+  0.8400000       10.92188      0.9000000    
+           3   959.0811       192.0000       46.00000       38.00000    
+  0.8260869       10.09375      0.8099999    
+           4   928.9763       222.0000       38.00000       23.00000    
+  0.6052632       8.375000      0.7289999    
