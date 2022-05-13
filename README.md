@@ -91,8 +91,8 @@ z-relative coordinate
 ### (6) Make input parameters file "MsBMW.par"
 We can set several key parameters in "MsBMW.par". Such as the upper bound of average acceptance rate (AR) parameter (i.e., Cooling criteria βT), the lower bound of AR paremeter (i.e., The grid degradation criteria βG), grid level (i.e., the number of multi-grid), initial temperature, the maximum number of iterations per chain, the search scope of TI, data events match rate τ, and so on.
 
-> Parameters for MsBMcMCI  
- ********************  
+> Parameters for MsBMW
+********************  
 START OF PARAMETERS:  
 Cond_Facies                                             -Lithofacies conditional data  
 Cond_Den                                                -Density conditional data  
