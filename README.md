@@ -98,31 +98,31 @@ We can set several key parameters in "MsBMW.par". Such as the upper bound of ave
 Cond_Den                                                -Density conditional data  
 Cond_Vp                                                  -Vp conditional data  
 SeismicWavelet                                                       -Seismic wave  
-SeismicData                                                      -Actual  seismic data
-2                                                              -"assignway"：1--single grid，2--patch
-1       2       3        4                                   -columns for "x," "y," "z," variable
-2                                                               -number of categories
-0 1                                                            -category codes
-1                                                              -number of realizations to generate
-150     0.5     1                                           -"nx,xmn,xsiz"
-1     0.5     1                                               -"ny,ymn,ysiz"
-80      0.5     1                                             -"nz,zmn,zsiz"
-69569                                                         -random number seed
-template5_1_7                                              -file for data template
-200                                                             -max number of conditioning data
-80000                                                        -The maximum number of iterations per chain
-0.30                                                          -The grid degradation criteria βG
-0.25                                                          -The search scope of TI
-0.90                                                           -Data events match rate τ
-1.0                                                             -Initial temperature
-0.90                                                           -Cooling rate
-0.50                                                             -Cooling criteria βT
-3       0                                                      -number of "mult-grid," number with search trees
-TI                                                             -file for training image
-300     1     160                                            -training image dimensions: "nxtr," "nytr," nztr
-1                                                             -column for training variable
-10      10      10                                          -maximum search radii "(hmax,hmin,vert)"
-0      0       0                                               -angles for search ellipsoid
+SeismicData                                                      -Actual  seismic data  
+2                                                              -"assignway"：1--single grid，2--patch  
+1       2       3        4                                   -columns for "x," "y," "z," variable  
+2                                                               -number of categories  
+0 1                                                            -category codes  
+1                                                              -number of realizations to generate  
+150     0.5     1                                           -"nx,xmn,xsiz"  
+1     0.5     1                                               -"ny,ymn,ysiz"  
+80      0.5     1                                             -"nz,zmn,zsiz"  
+69569                                                         -random number seed  
+template5_1_7                                              -file for data template  
+200                                                             -max number of conditioning data  
+80000                                                        -The maximum number of iterations per chain  
+0.30                                                          -The grid degradation criteria βG  
+0.25                                                          -The search scope of TI  
+0.90                                                           -Data events match rate τ  
+1.0                                                             -Initial temperature  
+0.90                                                           -Cooling rate  
+0.50                                                             -Cooling criteria βT  
+3       0                                                      -number of "mult-grid," number with search trees  
+TI                                                             -file for training image  
+300     1     160                                            -training image dimensions: "nxtr," "nytr," nztr  
+1                                                             -column for training variable  
+10      10      10                                          -maximum search radii "(hmax,hmin,vert)"  
+0      0       0                                               -angles for search ellipsoid  
 
  
 ## Running MsBMW
