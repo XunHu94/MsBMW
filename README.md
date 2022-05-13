@@ -93,7 +93,7 @@ We can set several key parameters in "MsBMW.par". Such as the upper bound of ave
 
 > Parameters for MsBMW  
 > START OF PARAMETERS:  
-> Cond_Facies                                             -Lithofacies conditional data  
+> Cond_Facies    -Lithofacies conditional data  
 Cond_Den                                                -Density conditional data  
 Cond_Vp                                                  -Vp conditional data  
 SeismicWavelet                                                       -Seismic wave  
