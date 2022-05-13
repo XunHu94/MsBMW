@@ -5,9 +5,9 @@ A geostatistical seismic inversion technique based on the multi-scale blocking M
 All material is made available under MIT license. You can use, redistribute, and adapt the material for non-commercial purposes, as long as you give appropriate credit by citing our paper and indicating any changes that you've made.
 
 ## System requirements
-Hardware requirements: 1.6 GHz or faster processor, 1 GB of RAM  
-Program language: Fortran  
-Software required: VS 2013 or newer, Fortran 2013 or newer  
+*Hardware requirements: 1.6 GHz or faster processor, 1 GB of RAM  
+*Program language: Fortran  
+*Software required: VS 2013 or newer, Fortran 2013 or newer  
 
 ## Make input data?
 We need to prepare 8 files as input data, including trining image file "TI", 4 conditional data files (seismic data file "SeismicData", well interpretation facies data file "Cond_Facies", well interpretation density data file "Cond_Den", and well interpretation Longitudinal velocity data file "Cond_Vp"), Seismic wavelet file, "SeismicWave", template file "template5_1_7", and input parameters file "MsBMW.par".
