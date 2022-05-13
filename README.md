@@ -47,7 +47,7 @@ Seismic_SNY_1
  ### (3) Make 3 type of well interpretation data file: "Cond_Facies", "Cond_Den", and "Cond_Vp"
  At first, we import the well log in "las" or "txt" format into Petrel software. After well interpretation and coarsening the interpretation data into model,  we export them into one file as model properties with "Gslib" format. Note that the three exported file include IJK cell values. For example, one of the Gslib format file is "Cond_Den".
  
- First lines of the exported file are like:
+ First lines of the exported file are like:  
  PETREL: Properties
 4
 i_index unit1 scale1
@@ -66,7 +66,7 @@ density unit1 scale1
 ### (4) Make seismic wavelet file "SeismicWavelet"
 The file is formed by the values of the wavelet sampling point sequence. Note that the time interval of sampling in seismic wavalet and the depth of a single grid in model should be consistent. 
 
- First lines of the exported file are like:
+ First lines of the exported file are like:  
 -0.00192775
 -0.0031539
 -0.00505651
@@ -78,7 +78,7 @@ The file is formed by the values of the wavelet sampling point sequence. Note th
 
 ### (5) Make template file "template5_1_7"
 
- First lines of the exported file are like:
+ First lines of the exported file are like:  
  Template of ** data locations		
 3		
 x-relative coordinate		
