@@ -1,15 +1,15 @@
 # MsBMW
 A geostatistical seismic inversion technique based on the multi-scale blocking Markov chain Monte Carlo (MsBMcMC) algorithm. 
 
-# Licenses
+## Licenses
 All material is made available under MIT license. You can use, redistribute, and adapt the material for non-commercial purposes, as long as you give appropriate credit by citing our paper and indicating any changes that you've made.
 
-# System requirements
+## System requirements
 
-# Make input data?
+## Make input data?
 We need to prepare 8 files as input data, including trining image file "TI", 4 conditional data files (seismic data file "SeismicData", well interpretation facies data file "Cond_Facies", well interpretation density data file "Cond_Den", and well interpretation Longitudinal velocity data file "Cond_Vp"), Seismic wavelet file, "SeismicWave", template file "template5_1_7", and input parameters file "MsBMW.par".
 
-(1) Make trining image file "TI"
+### (1) Make trining image file "TI"
 The training image is generated in Petrel software, and export them into one file as model properties with "Gslib" format. An Gslib format example of the exported file is "TI".
 
 First lines of the exported file are like:
@@ -25,7 +25,7 @@ Facies
 1.000000 
 0.000000
 
-(2) Make seismic date file "SeismicData"
+### (2) Make seismic date file "SeismicData"
 At first, we import the seismic data in "SEG" or "SEGY" format into the Petrel software. Then, we resampling seismic data into the model. Finally, we export them into one file as model properties with "Gslib" format as well as training image file "TI". An Gslib format example of the exported file is "SeismicData".
 
 First lines of the exported file are like:
@@ -41,7 +41,7 @@ Seismic_SNY_1
   4.6712905E-04
  -2.1066867E-02
  
- (3) Make 3 type of well interpretation data file: "Cond_Facies", "Cond_Den", and "Cond_Vp"
+ ### (3) Make 3 type of well interpretation data file: "Cond_Facies", "Cond_Den", and "Cond_Vp"
  At first, we import the well log in "las" or "txt" format into Petrel software. After well interpretation and coarsening the interpretation data into model,  we export them into one file as model properties with "Gslib" format. Note that the three exported file include IJK cell values. For example, one of the Gslib format file is "Cond_Den".
  
  First lines of the exported file are like:
@@ -60,7 +60,7 @@ density unit1 scale1
 40 1 1 2.126683 
 120 1 1 2.430258
 
-(4) Make seismic wavelet file "SeismicWavelet"
+### (4) Make seismic wavelet file "SeismicWavelet"
 The file is formed by the values of the wavelet sampling point sequence. Note that the time interval of sampling in seismic wavalet and the depth of a single grid in model should be consistent. 
 
  First lines of the exported file are like:
@@ -73,7 +73,7 @@ The file is formed by the values of the wavelet sampling point sequence. Note th
 -0.01841405
 -0.02716234
 
-(5) Make template file "template5_1_7"
+### (5) Make template file "template5_1_7"
 
  First lines of the exported file are like:
  Template of ** data locations		
@@ -90,7 +90,7 @@ z-relative coordinate
 2	0	2
 2	0	3
 
-(6) Make input parameters file "MsBMW.par"
+### (6) Make input parameters file "MsBMW.par"
 We can set several key parameters in "MsBMW.par". Such as the upper bound of average acceptance rate (AR) parameter (i.e., Cooling criteria βT), the lower bound of AR paremeter (i.e., The grid degradation criteria βG), grid level (i.e., the number of multi-grid), initial temperature, the maximum number of iterations per chain, the search scope of TI, data events match rate τ, and so on.
 
 Parameters for MsBMcMCI																	
@@ -126,7 +126,7 @@ TI                                                             -file for trainin
 10      10      10                                          -maximum search radii "(hmax,hmin,vert)"
 0      0       0                                               -angles for search ellipsoid
  
-# Running MsBMW
+## Running MsBMW
 Once making the input data mentioned above and downloading related codes successfully, you can run MsBMW code.
 
 # Results
