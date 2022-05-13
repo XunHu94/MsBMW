@@ -1,5 +1,5 @@
 # MsBMW
-A geostatistical seismic inversion technique based on the multi-scale blocking Markov chain Monte Carlo (MsBMcMC) algorithm. 
+A geostatistical seismic inversion technique based on the multi-scale blocking moving window (MsBMW) algorithm. 
 
 ## Licenses
 All material is made available under MIT license. You can use, redistribute, and adapt the material for non-commercial purposes, as long as you give appropriate credit by citing our paper and indicating any changes that you've made.
