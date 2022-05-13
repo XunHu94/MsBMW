@@ -17,8 +17,8 @@ The training image is generated in Petrel software, and export them into one fil
 
 First lines of the exported file are like:  
 `PETREL: Properties  
-1  
-Facies  
+>1  
+> Facies  
 0.000000  
 0.000000  
 0.000000  
