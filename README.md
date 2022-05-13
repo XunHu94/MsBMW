@@ -31,8 +31,8 @@ Facies
 ### (2) Make seismic date file "SeismicData"
 At first, we import the seismic data in "SEG" or "SEGY" format into the Petrel software. Then, we resampling seismic data into the model. Finally, we export them into one file as model properties with "Gslib" format as well as training image file "TI". An Gslib format example of the exported file is "SeismicData".
 
-First lines of the exported file are like:
-PETREL:Property
+First lines of the exported file are like:  
+> PETREL:Property
 1
 Seismic_SNY_1
   4.5725177E-03
@@ -48,7 +48,7 @@ Seismic_SNY_1
  At first, we import the well log in "las" or "txt" format into Petrel software. After well interpretation and coarsening the interpretation data into model,  we export them into one file as model properties with "Gslib" format. Note that the three exported file include IJK cell values. For example, one of the Gslib format file is "Cond_Den".
  
  First lines of the exported file are like:  
- PETREL: Properties
+> PETREL: Properties
 4
 i_index unit1 scale1
 j_index unit1 scale1
@@ -67,7 +67,7 @@ density unit1 scale1
 The file is formed by the values of the wavelet sampling point sequence. Note that the time interval of sampling in seismic wavalet and the depth of a single grid in model should be consistent. 
 
  First lines of the exported file are like:  
--0.00192775
+> -0.00192775
 -0.0031539
 -0.00505651
 -0.00794273
@@ -78,7 +78,7 @@ The file is formed by the values of the wavelet sampling point sequence. Note th
 
 ### (5) Make template file "template5_1_7"
 
- First lines of the exported file are like:  
+> First lines of the exported file are like:  
  Template of ** data locations		
 3		
 x-relative coordinate		
@@ -96,7 +96,7 @@ z-relative coordinate
 ### (6) Make input parameters file "MsBMW.par"
 We can set several key parameters in "MsBMW.par". Such as the upper bound of average acceptance rate (AR) parameter (i.e., Cooling criteria βT), the lower bound of AR paremeter (i.e., The grid degradation criteria βG), grid level (i.e., the number of multi-grid), initial temperature, the maximum number of iterations per chain, the search scope of TI, data events match rate τ, and so on.
 
-Parameters for MsBMcMCI																	
+> Parameters for MsBMcMCI																	
 			      ********************																			
 START OF PARAMETERS:
 Cond_Facies                                             -Lithofacies conditional data
