@@ -93,11 +93,11 @@ We can set several key parameters in "MsBMW.par". Such as the upper bound of ave
 
 > 			Parameters for MsBMcMCI																	
 > 			      ********************																			
-> START OF PARAMETERS:
-> Cond_Facies                                             -Lithofacies conditional data
-> Cond_Den                                                -Density conditional data
-> Cond_Vp                                                  -Vp conditional data
-> SeismicWavelet                                                       -Seismic wave
+> START OF PARAMETERS:  
+> Cond_Facies                                             -Lithofacies conditional data  
+> Cond_Den                                                -Density conditional data  
+> Cond_Vp                                                  -Vp conditional data  
+> SeismicWavelet                                                       -Seismic wave  
 > SeismicData                                                      -Actual  seismic data
 > 2                                                              -"assignway"：1--single grid，2--patch
 > 1       2       3        4                                   -columns for "x," "y," "z," variable
