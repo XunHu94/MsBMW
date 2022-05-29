@@ -1,0 +1,36 @@
+			Parameters for MsBMW																	
+			      ********************																			
+START OF PARAMETERS:
+CondFacies                                             -Lithofacies conditional data
+CondDen                                                -Density conditional data
+CondVp                                                  -Vp conditional data
+SeismicWavelet                                                       -Seismic wave
+SeismicData                                                      -Actual  seismic data
+RockPhysicsModel                                                             -Rock physics Model
+50                                                              -The number of chains
+2                                                              -"ObjectiveFuction"£º1--RMSE£¬2--CorrelationCoefficient
+2                                                              -"assignway"£º1--single grid£¬2--patch
+1       2       3        4                                   -columns for "x," "y," "z," variable
+2                                                               -number of categories
+0 1                                                            -category codes
+1                                                              -number of realizations to generate
+150     0.5     1                                           -"nx,xmn,xsiz"
+1     0.5     1                                               -"ny,ymn,ysiz"
+150      0.5     1                                             -"nz,zmn,zsiz"
+69569                                                         -random number seed
+template5_1_7                                              -file for data template
+200                                                             -max number of conditioning data
+100000                                                        -The maximum number of iterations per chain
+20000                                                        -The maximum number of iteratons in coarse models
+0.20                                                          -The grid degradation criteria ¦ÂG
+0.25                                                          -The search scope of TI
+0.90                                                           -Data events match rate ¦Ó
+100.0                                                             -Initial temperature
+0.90                                                           -Cooling rate 
+0.35                                                             -Cooling criteria ¦ÂT
+3       0                                                      -number of "mult-grid," number with search trees
+TI                                                             -file for training image
+300     1     300                                            -training image dimensions: "nxtr," "nytr," nztr
+1                                                             -column for training variable
+10      10      10                                          -maximum search radii "(hmax,hmin,vert)"
+0      0       0                                               -angles for search ellipsoid

@@ -1,0 +1,10 @@
+2                                                              -The number of lithofacie
+0                                                              -Lithofacie encoding
+2.2904  0.0393                                             -The mean and mean square error of density
+1202.53  24.3956                                         -The mean and mean square error of velocity
+-226.043  1719.4  0.0  22.7577		 -Velocity and density relationships: slope, itercept, residual mean, and residual mean square error
+1                                                              -Lithofacie encoding
+2.2170  0.0765                                             -The mean and mean square error of density
+1165.28  22.2627                                        -The mean and mean square error of velocity
+99.085  944.1  0.0  21.567		 -Velocity and density relationships: slope, itercept, residual mean, and residual mean square error
+1.0			          -noise mean square error
