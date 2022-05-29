@@ -108,6 +108,9 @@ Cond_Den                                                -Density conditional dat
 Cond_Vp                                                  -Vp conditional data  
 SeismicWavelet                                                       -Seismic wave  
 SeismicData                                                      -Actual  seismic data  
+RockPhysicsModel                                                             -Rock physics Model  
+50                                                              -The number of chains  
+1                                                              -"ObjectiveFuction"：1--RMSE，2--CorrelationCoefficient
 2                                                              -"assignway"：1--single grid，2--patch  
 1       2       3        4                                   -columns for "x," "y," "z," variable  
 2                                                               -number of categories  
@@ -120,6 +123,7 @@ SeismicData                                                      -Actual  seismi
 template5_1_7                                              -file for data template  
 200                                                             -max number of conditioning data  
 80000                                                        -The maximum number of iterations per chain  
+20000                                                        -The maximum number of iteratons in coarse models  
 0.30                                                          -The grid degradation criteria βG  
 0.25                                                          -The search scope of TI  
 0.90                                                           -Data events match rate τ  
