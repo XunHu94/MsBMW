@@ -144,4 +144,4 @@ Once making the input data mentioned above and downloading related codes success
 # Results
 All of results are generated in the folder under directory "SIMOUTFL", including Longitudinal wave impedance "AIOut1", Density "DenOut1", inverted facies "FaciesOut1", Longitudinal wave velocity "VpOut1", RMSE record file "SeismicRMSE", time record file "time.txt", synthetic seismic data file "SeismicOut-".
 
-We can import the 5 file ("FaciesOut1",  "DenOut1", "VpOut1", "SeismicOut-", "AIOut1", )  into Petrel software to visualize the model.
+We can import the 4 file ("FaciesOut1",  "DenOut1", "VpOut1", "SeismicOut-")  into Petrel software to visualize the model.
