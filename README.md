@@ -19,7 +19,7 @@ All material is made available under MIT license. You can use, redistribute, and
 * Software required: VS 2013 or newer, Fortran 2013 or newer  
 
 ## Make input data?
-We need to prepare 8 files as input data, including trining image file "TI", 4 conditional data files (seismic data file "SeismicData", well interpretation facies data file "Cond_Facies", well interpretation density data file "Cond_Den", and well interpretation Longitudinal velocity data file "Cond_Vp"), Seismic wavelet file, "SeismicWave", template file "template5_1_7", and input parameters file "MsBMW.par".
+We need to prepare 8 files as input data, including trining image file "TI", 4 conditional data files (seismic data file "SeismicData", well interpretation facies data file "CondFacies", well interpretation density data file "CondDen", and well interpretation Longitudinal velocity data file "CondVp"), Seismic wavelet file, "SeismicWave", template file "template5_1_7", and input parameters file "MsBMW.par".
 
 ### (1) Make trining image file "TI"
 The training image is generated in Petrel software, and export them into one file as model properties with "Gslib" format. An Gslib format example of the exported file is "TI".
@@ -51,8 +51,8 @@ Seismic_SNY_1
   4.6712905E-04  
  -2.1066867E-02  
  
- ### (3) Make 3 type of well interpretation data file: "Cond_Facies", "Cond_Den", and "Cond_Vp"
- At first, we import the well log in "las" or "txt" format into Petrel software. After well interpretation and coarsening the interpretation data into model,  we export them into one file as model properties with "Gslib" format. Note that the three exported file include IJK cell values. For example, one of the Gslib format file is "Cond_Den".
+ ### (3) Make 3 type of well interpretation data file: "CondFacies", "CondDen", and "CondVp"
+ At first, we import the well log in "las" or "txt" format into Petrel software. After well interpretation and coarsening the interpretation data into model,  we export them into one file as model properties with "Gslib" format. Note that the three exported file include IJK cell values. For example, one of the Gslib format file is "CondDen".
  
  First lines of the exported file are like:  
 > PETREL: Properties  
