@@ -142,6 +142,6 @@ TI                                                             -file for trainin
 Once making the input data mentioned above and downloading related codes successfully, you can run MsBMW code.
 
 # Results
-All of results are generated in the folder under directory "SIMOUTFL", including Longitudinal wave impedance "AIOut1", Density "DenOut1", inverted facies "FaciesOut1", Longitudinal wave velocity "VpOut1", RMSE record file "SeismicRMSE", time record file "time.txt", synthetic seismic data file "SeismicOut-".
+All of results are generated in the folder under directory "SIMOUTFL", including Density "DensityOut1", inverted facies "Facies1", Longitudinal wave velocity "VelocityOut1",Parameters "ParametersChain1.txt", synthetic seismic data file "SyntheticRecordOut1".
 
-We can import the 4 file ("FaciesOut1",  "DenOut1", "VpOut1", "SeismicOut-")  into Petrel software to visualize the model.
+We can import the 4 file ("Facies1",  "DensityOut1", "VelocityOut1", "SyntheticRecordOut1")  into Petrel software to visualize the model.
